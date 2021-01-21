@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniWindows", "MiniWindows\MiniWindows.csproj", "{CE9AE8A4-1F8D-4E4B-A737-749A18A4BDBC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniWindows.Tests", "MiniWindows.Tests\MiniWindows.Tests.csproj", "{CD6F6C71-698A-4AC8-8D45-341232FB2432}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CE9AE8A4-1F8D-4E4B-A737-749A18A4BDBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE9AE8A4-1F8D-4E4B-A737-749A18A4BDBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE9AE8A4-1F8D-4E4B-A737-749A18A4BDBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE9AE8A4-1F8D-4E4B-A737-749A18A4BDBC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD6F6C71-698A-4AC8-8D45-341232FB2432}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD6F6C71-698A-4AC8-8D45-341232FB2432}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD6F6C71-698A-4AC8-8D45-341232FB2432}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD6F6C71-698A-4AC8-8D45-341232FB2432}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {184A84D3-2F28-466D-9CD7-D0838EAB6EF7}
+	EndGlobalSection
+EndGlobal
