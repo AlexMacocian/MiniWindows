@@ -5,7 +5,7 @@ using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Media;
 
-namespace MiniWindows
+namespace Miwi
 {
     public sealed class MiniWindowManager
     {

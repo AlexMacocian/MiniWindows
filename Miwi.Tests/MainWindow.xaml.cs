@@ -1,9 +1,8 @@
-﻿using System;
-using System.Windows;
+﻿using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Media;
 
-namespace MiniWindows.Tests
+namespace Miwi.Tests
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml

@@ -1,11 +1,11 @@
-﻿using MiniWindows.Utils;
+﻿using Miwi.Utils;
 using System;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Input;
 using System.Windows.Media;
 
-namespace MiniWindows
+namespace Miwi
 {
     /// <summary>
     /// Interaction logic for MiniWindowTab.xaml

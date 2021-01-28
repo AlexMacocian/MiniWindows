@@ -7,7 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\MiniWindows\Miwi.csproj" />
+    <ProjectReference Include="..\Miwi\Miwi.csproj" />
   </ItemGroup>
 
 </Project>

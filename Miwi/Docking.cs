@@ -1,4 +1,4 @@
-﻿namespace MiniWindows
+﻿namespace Miwi
 {
     public enum Docking
     {

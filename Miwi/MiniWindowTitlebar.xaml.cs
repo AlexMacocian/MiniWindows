@@ -3,7 +3,7 @@ using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Media;
 
-namespace MiniWindows
+namespace Miwi
 {
     /// <summary>
     /// Interaction logic for MiniWindowTitlebar.xaml

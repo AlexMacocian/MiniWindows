@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Windows.Media;
 
-namespace MiniWindows.Utils
+namespace Miwi.Utils
 {
     internal static class Helper
     {
