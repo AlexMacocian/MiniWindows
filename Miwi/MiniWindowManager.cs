@@ -7,7 +7,7 @@ using System.Windows.Media;
 
 namespace Miwi
 {
-    public sealed class MiniWindowManager
+    public sealed class MiniWindowManager : IMiniWindowManager
     {
         private Canvas windowContainer;
         private StackPanel windowTabContainer;
@@ -98,10 +98,9 @@ namespace Miwi
         /// </summary>
         /// <param name="content">Element to be displayed as content of the window.</param>
         /// <param name="name">Name of the window. Displayed in the titlebar as well as in the tab.</param>
-        public MiniWindowManager AddWindow(string name, UIElement content)
+        public void AddWindow(string name, UIElement content)
         {
             this.InnerAddWindow(name, content);
-            return this;
         }
         /// <summary>
         /// Refreshes the window container.

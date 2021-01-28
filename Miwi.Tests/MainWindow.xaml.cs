@@ -20,10 +20,10 @@ namespace Miwi.Tests
                 .WithForegroundColor(Colors.White)
                 .WithHighlightColor(Colors.White)
                 .WithWindowContainer(this.WindowContainer)
-                .WithWindowTabContainer(this.TabContainer)
-                .AddWindow("SomeWindow", new Grid() { Background = new SolidColorBrush(Colors.Red) })
-                .AddWindow("SomeWindow2", new Grid() { Background = new SolidColorBrush(Colors.Yellow) })
-                .AddWindow("SomeWindow3", new Grid() { Background = new SolidColorBrush(Colors.Green) });
+                .WithWindowTabContainer(this.TabContainer);
+            this.windowManager.AddWindow("SomeWindow", new Grid() { Background = new SolidColorBrush(Colors.Red) });
+            this.windowManager.AddWindow("SomeWindow2", new Grid() { Background = new SolidColorBrush(Colors.Yellow) });
+            this.windowManager.AddWindow("SomeWindow3", new Grid() { Background = new SolidColorBrush(Colors.Green) });
         }
 
         private void Window_PreviewKeyDown(object sender, System.Windows.Input.KeyEventArgs e)

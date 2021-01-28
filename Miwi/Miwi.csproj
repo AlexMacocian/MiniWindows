@@ -6,6 +6,9 @@
     <UseWPF>true</UseWPF>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Description>Library that allows the creation of windows inside WPF applications with behavior similar to a an application window.</Description>
+    <Version>1.0.1</Version>
+    <AssemblyVersion>1.0.1.0</AssemblyVersion>
+    <FileVersion>1.0.1.0</FileVersion>
   </PropertyGroup>
 
   <ItemGroup Condition=" '$(TargetFramework)' == 'net472' ">
