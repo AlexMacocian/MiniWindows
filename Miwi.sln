@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30907.101
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniWindows", "MiniWindows\MiniWindows.csproj", "{CE9AE8A4-1F8D-4E4B-A737-749A18A4BDBC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Miwi", "Miwi\Miwi.csproj", "{CE9AE8A4-1F8D-4E4B-A737-749A18A4BDBC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniWindows.Tests", "MiniWindows.Tests\MiniWindows.Tests.csproj", "{CD6F6C71-698A-4AC8-8D45-341232FB2432}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Miwi.Tests", "Miwi.Tests\Miwi.Tests.csproj", "{CD6F6C71-698A-4AC8-8D45-341232FB2432}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
